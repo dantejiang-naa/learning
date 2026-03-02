@@ -1,8 +1,74 @@
+/* ===== Global Page Styling ===== */
+
+body {
+  background-color: white;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+main {
+  margin: 10px;
+}
+
+/* ===== Header Styling ===== */
+
+header {
+  background-color: navy;
+  padding: 5px;
+}
+
+h1 {
+  color: white;
+  padding-left: 5px;
+}
+
+h2 {
+  color: black;
+}
+
+/* ===== Link Styling ===== */
+
+a {
+  text-decoration: none;
+}
+
+/* ===== Table Styling ===== */
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 5px;
+}
+
+/* ===== Buttons ===== */
+
+.button {
+  padding: 10px 10px;
+  border-radius: 8px;
+}
+
 #reference-button {
   display: inline-block;
   background-color: red;
-  padding: 20px;
   color: white;
-  text-decoration: none;
-  border-radius: 8px;
+}
+
+#reference-button:hover,
+#reference-button:active {
+  background-color: rgb(220, 0, 0);
+}
+
+#back-button {
+  position: absolute;
+  top: 30px;
+  right: 10px;
+  background-color: powderblue;
+  color: black;
+}
+
+#back-button:hover,
+#back-button:active {
+  background-color: skyblue;
 }
